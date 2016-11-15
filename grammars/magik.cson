@@ -137,11 +137,11 @@ repository:
   keywords:
     patterns: [
       {
-        match: "\\b(_if|_else|_elif|_endif|_loop|_endloop|_for|_over|_leave|_return|_then|_protect|_protection|_endprotect|_try|_with|_when|_endtry)\\b"
+        match: "\\b(_if|_else|_elif|_endif|_andif|_orif|_loop|_endloop|_for|_over|_leave|_return|_then|_protect|_protection|_endprotect|_try|_with|_when|_endtry)\\b"
         name: "keyword.control.magik"
       }
       {
-        match: "\\b(_private|_optional|_method|_endmethod|_proc|_endproc|_is|_local|_global)\\b"
+        match: "\\b(_private|_optional|_method|_endmethod|_proc|_endproc|_is|_local|_global|_gather|_scatter|_allresults)\\b"
         name: "keyword.other.magik"
       }
       {
