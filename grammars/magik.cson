@@ -141,7 +141,7 @@ repository:
         name: "keyword.control.magik"
       }
       {
-        match: "\\b(_private|_optional|_method|_endmethod|_proc|_endproc|_is|_local|_global|_gather|_scatter|_allresults)\\b"
+        match: "\\b(_private|_optional|_method|_endmethod|_proc|_endproc|_is|_and|_or|_local|_global|_gather|_scatter|_allresults)\\b"
         name: "keyword.other.magik"
       }
       {
